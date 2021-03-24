@@ -1,0 +1,599 @@
+==============================
+Coronavirus-Prevention======*/
+*{
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+}
+/*================
+navbar==========*/
+#navbar{
+	font-family: mulish;
+}
+#navbar .navbar{
+	padding: 1.2rem 0.0rem !important;	
+}
+#navbar .container-fluid{
+    padding: 0.0rem 15.0rem !important;
+}
+#navbar .navbar-brand{
+	font-weight: 700 !important;
+	font-size: 1.2rem;
+	color: #000;
+}
+#navbar .bg-light{
+	background: transparent !important;
+}
+#navbar .nav-link{
+	color: rgba(0, 0, 0, 0.7) !important;
+	padding-right: 2.9rem !important;
+	text-transform: capitalize;
+	font-weight: 300;
+	transition: 0.5s;
+}
+#navbar .nav-link:hover{
+	color: #6f42c1 !important;
+}
+#navbar .prevention-link{
+	font-weight: 700;
+	color: #6f42c1 !important;
+}
+/*navbar-after-scrolled*/
+#navbar .bg-light.scrolled{
+	background: #fff !important;
+	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+	transition: 0.7s;
+}
+@media (max-width: 1028px) {
+	#navbar .container-fluid{
+    padding: 0.0rem 3.0rem !important;
+    }
+    #navbar .navbar-brand{
+    	font-size: 1.9rem;
+    }
+    #navbar .nav-link{
+    	padding-left: 0.0rem !important;
+    }
+}
+/*====================
+navbar-end==========*/
+
+/*===================
+hero-bg============*/
+#hero-bg{
+	font-family: mulish;
+	background: rgba(111, 66, 193, 0.1);
+	border-bottom-right-radius: 50%;
+	overflow: hidden; 
+}
+#hero-bg .container-fluid{
+	padding: 0.0rem 15.0rem !important;
+	padding-top: 3.7rem !important;
+}
+#hero-bg .hero-title-para{
+	font-size: 12px;
+	font-weight: 900;
+	letter-spacing: 0.1rem;
+	color: rgba(111, 66, 193, 0.5);
+	padding-top: 5.0rem;
+}
+#hero-bg .hero-title-h1{
+	color: #6f42c1;
+	font-weight: 900;
+	font-size: 40px;
+}
+#hero-bg .hero-para{
+	color: grey;
+	font-weight: 400;
+	font-size: 1.0rem;
+	padding-top: 1.2rem !important;
+	padding-right: 2.0rem !important;
+	margin-bottom: 3.2rem !important;
+}
+#hero-bg .col-lg-6 a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #6f42c1;
+    background: #6f42c1;
+    padding: 10px 30px !important;
+    border-radius: 2.0rem;
+    font-size: 12px;
+}
+@media (max-width: 1028px) {
+	#hero-bg{
+	font-family: mulish;
+	background: rgba(111, 66, 193, 0.1);
+	border-bottom-right-radius: 30%;
+	
+	overflow: hidden; 
+    }
+	#hero-bg .container-fluid{
+	padding: 0.0rem 3.0rem !important;
+	padding-top: 3.0rem !important;
+	text-align: center;
+    }
+    #hero-bg .hero-title-para{
+	font-size: 25px;
+    }
+    #hero-bg .hero-title-h1{
+	font-size: 60px;
+    }
+    #hero-bg .hero-para{
+	font-size: 1.85rem;
+    } 
+    #hero-bg .col-lg-6 a{
+    font-size: 20px;	
+    }
+    #hero-bg .col-lg-6 img{
+    	margin-top: 3.0rem !important; 
+    }
+}
+/*=======================
+hero-bg-end============*/
+
+/*========================================
+how-to-prevent-coronavirus==============*/
+#howtopreventcoronavirus{
+	background: rgba(111, 66, 193, 0.05);
+	margin-top: 9.55rem !important;
+	padding-top: 7.50rem !important;
+	padding-bottom: 4.70rem !important;
+	font-family: mulish;
+}
+#howtopreventcoronavirus .container-fluid{
+    padding: 0.0rem 15.0rem !important; 
+}
+#howtopreventcoronavirus .col-lg-3{
+	padding-bottom: 2.0rem !important;
+}
+#howtopreventcoronavirus .col-lg-3 .card{
+	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);	
+}
+#howtopreventcoronavirus .col-lg-3 .icon{
+	text-align: center;
+	background: rgba(111, 66, 193, 0.2);
+	padding: 4.0rem 0.0rem !important;
+}
+#howtopreventcoronavirus .col-lg-3 i{
+	color: #6f42c1;
+    font-size: 3.0rem;
+}
+#howtopreventcoronavirus .col-lg-3 h5{
+	color: #6f42c1;
+	font-size: 1.1rem;
+	font-weight: 800;
+	padding: 0.0rem 1.5rem !important;
+	padding-top: 1.5rem !important; 
+}
+#howtopreventcoronavirus .col-lg-3 p{
+	color: grey;
+	font-size: 0.9rem;
+	padding: 0.0rem 1.5rem !important;
+	padding-bottom: 1.5rem !important;
+}
+@media (max-width: 1028px) {
+	#howtopreventcoronavirus{
+		padding-bottom: 2.5rem !important;
+	}
+	#howtopreventcoronavirus .container-fluid{
+        padding: 0.0rem 3.0rem !important; 
+    }
+	#howtopreventcoronavirus .col-lg-3 h5{
+		font-size: 1.3rem;
+	}
+	#howtopreventcoronavirus .col-lg-3 p{
+		font-size: 1.1rem;
+	}
+}
+/*=====second=====*/
+#howtopreventcoronavirus .col-lg-6 h1{
+	color: #6f42c1;
+	font-size: 1.9rem;
+	font-weight: 900;
+}
+#howtopreventcoronavirus .col-lg-6 p{
+	color: grey;
+	font-size: 1.0rem;
+}
+#howtopreventcoronavirus .col-lg-6 i{
+	color: #6f42c1;
+	padding-right: 1.0rem;
+}
+#howtopreventcoronavirus .col-lg-6 a{
+	color: #fff;
+	font-size: 12px;
+	background: #6f42c1;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 30px !important;
+	border-radius: 2.0rem; 
+}
+@media (max-width: 1028px) {
+	#howtopreventcoronavirus .col-lg-6{
+        margin-bottom: 2.9rem;
+	}
+    #howtopreventcoronavirus .col-lg-6 h1{
+	font-size: 2.2rem;
+    }
+    #howtopreventcoronavirus .col-lg-6 p{
+	font-size: 1.25rem;
+    }
+    #howtopreventcoronavirus .col-lg-6 a{
+	font-size: 15px;
+    }
+}
+/*============================================
+how-to-prevent-coronavirus-end==============*/
+
+/*===========================
+coronavirus-statistics=====*/
+#coronavirusstatistics{
+	margin-top: 9.55rem !important;
+	text-align: center;
+	font-family: mulish;
+}
+#coronavirusstatistics .container-fluid{
+	padding: 0.0rem 15.0rem !important;
+	padding-top: 2.1rem !important;
+}
+#coronavirusstatistics h1{
+	color: #6f42c1;
+	font-size: 2.0rem;
+	font-weight: 900;
+}
+#coronavirusstatistics p{
+	color: grey;
+	font-size: 1.0rem;
+	font-weight: 400;
+	padding-top: 0.5rem !important;
+}	
+#coronavirusstatistics h3{
+	color: #000;
+	font-weight: 900;
+	font-size: 2.0rem;
+	padding-top: 0.8rem !important;
+}
+#coronavirusstatistics h5{
+	color: grey;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	letter-spacing: 0.1rem;
+	font-weight: 700;
+	padding-top: 0.8rem !important;
+}
+@media (max-width: 1028px) {
+	#coronavirusstatistics .container-fluid{
+	padding: 0.0rem 3.0rem !important;
+	padding-top: 4.0rem !important;
+    }
+    #coronavirusstatistics p{
+    	font-size: 1.25rem;
+    }
+    #coronavirusstatistics h1{
+    	font-size: 60px;
+    }
+    #coronavirusstatistics h3{
+    	font-size: 2.3rem;
+    }
+    #coronavirusstatistics h5{
+    	font-size: 0.95rem;
+    }
+    #coronavirusstatistics img{
+    	width: 20%;
+    }
+}
+/*===============================
+coronavirus-statistics-end=====*/
+
+/*========================
+more-prevention=========*/
+#moreprevention{
+	text-align: center;
+	font-family: mulish;
+	padding-top: 5.50rem;
+	padding-bottom: 5.50rem;
+	margin-bottom: 2.0rem;	
+	margin-top: 9.55rem !important;
+	background: rgba(111, 66, 193, 0.05);
+}
+#moreprevention .container-fluid{
+	padding: 0.0rem 15.0rem !important;
+	padding-top: 2.1rem !important;
+}
+#moreprevention h1{
+	color: #6f42c1;
+	font-size: 2.0rem;
+	font-weight: 900;
+	text-transform: capitalize;		
+}
+#moreprevention p{
+	color: grey;
+	font-size: 1.0rem;
+	font-weight: 400;
+	padding-top: 0.5rem !important;
+}	
+#moreprevention .col-lg-3{
+	padding-bottom: 2.0rem !important;
+}
+#moreprevention .col-lg-3 .card{
+	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);	
+}
+#moreprevention .col-lg-3 .icon{
+	text-align: center;
+	background: rgba(111, 66, 193, 0.2);
+	padding: 3.0rem 0.0rem !important;
+}
+#moreprevention .col-lg-3 i{
+	color: #6f42c1;
+    font-size: 3.0rem;
+}
+#moreprevention .col-lg-3 h5{
+	color: #6f42c1;
+	text-align: left !important;
+	font-size: 1.1rem;
+	font-weight: 800;
+	padding: 0.0rem 1.5rem !important;
+	padding-top: 1.5rem !important; 
+}
+#moreprevention .col-lg-3 p{
+	color: gray;
+	font-size: 0.9rem;
+	text-align: left !important;
+	padding: 0.0rem 1.5rem !important;
+	padding-bottom: 1.5rem !important;
+}
+@media (max-width: 1028px) {
+	#moreprevention{
+		padding-bottom: 2.5rem !important;
+	}
+	#moreprevention h1{
+	color: #6f42c1;
+	font-size: 2.2rem;
+	font-weight: 900;
+	text-transform: capitalize;		
+    }
+    #moreprevention p{
+	color: grey;
+	font-size: 1.5rem;
+	font-weight: 400;
+	padding-top: 0.5rem !important;
+    }	
+	#moreprevention .container-fluid{
+        padding: 0.0rem 3.0rem !important; 
+        padding-top: 2.0rem !important;
+    }
+	#moreprevention .col-lg-3 h5{
+		font-size: 1.3rem;
+	}
+	#moreprevention .col-lg-3 p{
+		font-size: 1.1rem;
+	}
+}
+/*============================
+more-prevention-end=========*/
+
+/*===================================
+how-to-protect-your-self===========*/
+#howtoprotectyourself{
+	padding: 0.0rem 15rem;
+	padding-top: 7.50rem !important;
+	font-family: mulish;
+}
+#howtoprotectyourself p{
+	text-align: center;
+	color: gray;
+	font-size: 1.0rem;
+}
+#howtoprotectyourself h1{
+	text-align: center;
+	color: #6f42c1;
+	text-transform: capitalize;
+	font-size: 1.9rem;
+	font-weight: 900;
+	line-height: 12px;
+}
+#howtoprotectyourself .p2{
+	color: gray;
+	font-size: 1.0rem;
+	text-align: center;
+	letter-spacing: 0.0px;
+	padding: 0.0rem 15.0rem;
+	padding-top: 1.7rem !important;
+}
+#howtoprotectyourself .col-lg-3{
+	padding-top: 5.0rem;
+}
+#howtoprotectyourself .container-fluid ul{
+	color: black;
+	font-size: 1.1rem;
+	font-weight: 700;	
+}
+#howtoprotectyourself .container-fluid li{
+	color: grey;
+	font-weight: 400;
+	font-size: 1.0rem;
+	padding-top: 1.0rem;
+	list-style-type: none;
+}
+#howtoprotectyourself .container-fluid i{
+	padding-right: 1.0rem;
+    color: #a8df65;
+}
+#howtoprotectyourself .second i{
+	color: #e84a5f;
+}
+#howtoprotectyourself .col-lg-6 img{
+     width: 107%;
+} 
+@media (max-width: 1028px) {
+	#howtoprotectyourself{
+	padding: 0.0rem 3.0rem;
+    }
+    #howtoprotectyourself p{
+	font-size: 1.25rem;
+    }
+    #howtoprotectyourself h1{
+	text-align: center;
+	color: #6f42c1;
+	text-transform: capitalize;
+	font-size: 2.2rem;
+	font-weight: 900;
+	line-height: 12px;
+    }
+    #howtoprotectyourself .p2{
+	font-size: 1.25rem;
+	padding: 0.0rem 3.0rem;
+    }
+    #howtoprotectyourself .container-fluid ul{
+	color: black;
+	font-size: 1.45rem;
+	font-weight: 700;	
+    }
+    #howtoprotectyourself .container-fluid li{
+	color: grey;
+	font-weight: 400;
+	font-size: 1.25rem;
+	padding-top: 1.0rem;
+	list-style-type: none;
+    }
+    #howtoprotectyourself .col-lg-6 img{
+     width: 94%;
+    }	
+}
+/*=======================================
+how-to-protect-your-self-end===========*/
+
+/*============
+links=======*/
+#links{
+	margin-top: 7.50rem;
+	font-family: mulish;
+	padding: 3.30rem 0.0rem;
+	background: rgba(111, 66, 193, 0.05);
+}
+#links .container-fluid{
+	padding: 0.0rem 15rem;
+}
+#links p{
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 28.0px;
+	word-spacing: 0.6px;
+	padding-top: 1.0rem;
+}
+#links h6{
+	color: black;
+	text-transform: capitalize;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+#links ul{
+	color: black;
+	text-transform: capitalize;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+#links li{
+	color: #6f42c1;
+	list-style-type: none;
+	cursor: pointer;
+	padding-top: 1.0rem;
+	font-weight: 700; 
+	font-size: 1.0rem;
+	transition: 0.5s;
+}
+#links li:hover{
+	color: black;
+	padding-left: 5.0px;
+}
+#links i{
+	color: #6f42c1;
+	padding-right: 1.50rem;
+	cursor: pointer;
+	transition: 0.5s;
+}
+#links i:hover{
+	color: black;
+}
+@media (max-width: 1028px) {
+	#links{
+	margin-top: 3.0rem;
+	background: rgba(111, 66, 193, 0.05);
+    }
+	#links .container-fluid{
+	padding: 0.0rem 3.0rem;
+    }
+    #links .col-lg-4{
+    	display: none;
+    }
+    #links ul{
+	font-size: 1.9rem;
+    }
+    #links li{
+	font-size: 1.25rem;
+    }
+}
+/*================
+links-end=======*/
+
+/*=============
+footer=======*/
+#footer {
+    padding: 7.5rem 0rem;
+    font-family: mulish;
+}
+.copyright {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.footer-covid{
+    color: #6f42c1;
+    font-size: 1.5rem;	
+    font-weight: 800;
+}
+.designedby{
+	color: #6f42c1;
+	font-weight: 800;
+	font-size: 1.2rem;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.designedby:hover{
+	color: black;
+}
+@media (max-width: 1028px) {
+    .copyright {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.0rem;
+    }
+    .footer-covid{
+    color: #6f42c1;
+    font-size: 2.0rem;	
+    font-weight: 800;
+    }
+    .designedby{
+	color: #6f42c1;
+	font-weight: 800;
+	font-size: 1.5rem;
+    }
+}
+/*=================
+footer-end=======*/
+
+/*===============
+preloader======*/
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff url(../img/loading.gif) no-repeat center;
+	z-index: 99999;
+}
+/*===================
+preloader-end======*/

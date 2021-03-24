@@ -1,0 +1,787 @@
+*===================
+Coronavirus========*/
+/*===============
+Home-Section===*/
+*{
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+}	
+/*================
+navbar==========*/
+#navbar{
+	font-family: mulish;
+}
+#navbar .navbar{
+	padding: 1.2rem 0.0rem !important;	
+}
+#navbar .container-fluid{
+    padding: 0.0rem 15.0rem !important;
+}
+#navbar .navbar-brand{
+	font-weight: 700 !important;
+	font-size: 1.2rem;
+	color: #000;
+}
+#navbar .bg-light{
+	background: transparent !important;
+}
+#navbar .nav-link{
+	color: rgba(0, 0, 0, 0.7) !important;
+	padding-right: 2.9rem !important;
+	text-transform: capitalize;
+	font-weight: 300;
+	transition: 0.5s;
+}
+#navbar .nav-link:hover{
+	color: #6f42c1 !important;
+}
+#navbar .home-link{
+	font-weight: 700;
+	color: #6f42c1 !important;
+}
+/*navbar-after-scrolled*/
+#navbar .bg-light.scrolled{
+	background: #fff !important;
+	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+	transition: 0.7s;
+}
+@media (max-width: 1028px) {
+	#navbar .container-fluid{
+    padding: 0.0rem 3.0rem !important;
+    }
+    #navbar .navbar-brand{
+    	font-size: 1.9rem;
+    }
+    #navbar .nav-link{
+    	padding-left: 0.0rem !important;
+    }
+}
+/*====================
+navbar-end==========*/
+
+/*===================
+hero-bg============*/
+#hero-bg{
+	font-family: mulish;
+	background: rgba(111, 66, 193, 0.1);
+	border-bottom-right-radius: 50%; 
+	overflow: hidden; 
+}
+#hero-bg .container-fluid{
+	padding: 0.0rem 15.0rem !important;
+	padding-top: 9.0rem !important;
+}
+#hero-bg .hero-title-para{
+	font-size: 12px;
+	font-weight: 900;
+	letter-spacing: 0.1rem;
+	color: rgba(111, 66, 193, 0.5);
+}
+#hero-bg .hero-title-h1{
+	color: #6f42c1;
+	font-weight: 900;
+	font-size: 40px;
+}
+#hero-bg .hero-para{
+	color: grey;
+	font-weight: 400;
+	font-size: 1.0rem;
+	padding-top: 1.2rem !important;
+	padding-right: 2.0rem !important;
+	margin-bottom: 3.2rem !important;
+}
+#hero-bg .col-lg-6 a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #6f42c1;
+    background: #6f42c1;
+    padding: 10px 30px !important;
+    border-radius: 2.0rem;
+    font-size: 12px;
+}
+@media (max-width: 1028px) {
+	#hero-bg{
+	font-family: mulish;
+	background: rgba(111, 66, 193, 0.1);
+	border-bottom-right-radius: 30%;
+	overflow: hidden; 
+    }
+	#hero-bg .container-fluid{
+	padding: 0.0rem 3.0rem !important;
+	padding-top: 9.0rem !important;
+	text-align: center;
+    }
+    #hero-bg .hero-title-para{
+	font-size: 25px;
+    }
+    #hero-bg .hero-title-h1{
+	font-size: 60px;
+    }
+    #hero-bg .hero-para{
+	font-size: 1.85rem;
+    } 
+    #hero-bg .col-lg-6 a{
+    font-size: 20px;	
+    }
+    #hero-bg .col-lg-6 img{
+    	margin-top: 3.0rem !important; 
+    }
+}
+/*=======================
+hero-bg-end============*/
+
+/*===========================
+coronavirus-statistics=====*/
+#coronavirusstatistics{
+	margin-top: 5.0rem !important;
+	text-align: center;
+	font-family: mulish;
+}
+#coronavirusstatistics .container-fluid{
+	padding: 0.0rem 15.0rem !important;
+	padding-top: 2.1rem !important;
+}
+#coronavirusstatistics h1{
+	color: #6f42c1;
+	font-size: 2.0rem;
+	font-weight: 900;
+}
+#coronavirusstatistics p{
+	color: grey;
+	font-size: 1.0rem;
+	font-weight: 400;
+	padding-top: 0.5rem !important;
+}	
+#coronavirusstatistics h3{
+	color: #000;
+	font-weight: 900;
+	font-size: 2.0rem;
+	padding-top: 0.8rem !important;
+}
+#coronavirusstatistics h5{
+	color: grey;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	letter-spacing: 0.1rem;
+	font-weight: 700;
+	padding-top: 0.8rem !important;
+}
+@media (max-width: 1028px) {
+	#coronavirusstatistics .container-fluid{
+	padding: 0.0rem 3.0rem !important;
+	padding-top: 4.0rem !important;
+    }
+    #coronavirusstatistics p{
+    	font-size: 1.25rem;
+    }
+    #coronavirusstatistics h1{
+    	font-size: 60px;
+    }
+    #coronavirusstatistics h3{
+    	font-size: 2.3rem;
+    }
+    #coronavirusstatistics h5{
+    	font-size: 0.95rem;
+    }
+    #coronavirusstatistics img{
+    	width: 20%;
+    }
+}
+/*===============================
+coronavirus-statistics-end=====*/
+
+/*===========================
+what-is-coronavirus========*/
+#whatiscoronavirus{
+	padding-top: 11.0rem !important;
+	font-family: mulish;
+}
+#whatiscoronavirus .container-fluid{
+	padding: 0.0rem 15.0rem !important;
+}
+#whatiscoronavirus .col-lg-7 video{
+	width: 95%;
+	height: 100%;
+}
+#whatiscoronavirus .col-lg-5 h1{
+	color: #6f42c1;
+	font-weight: 900;
+	font-size: 1.9rem;
+}
+#whatiscoronavirus .col-lg-5 p{
+	color: grey;
+	font-size: 1.0rem;
+	padding-top: 1.0rem !important;
+	padding-bottom: 1.0rem !important;
+}
+#whatiscoronavirus .col-lg-5 .icon-para{
+    color: grey;
+    font-size: 1.0rem;
+    padding-top: 0.0rem !important;
+    padding-bottom: 0.3rem !important;
+}
+#whatiscoronavirus .col-lg-5 i{
+	padding-right: 1.0rem !important;
+	color: #6f42c1;
+}
+#whatiscoronavirus .col-lg-5 a{
+	color: #fff;
+	font-size: 12px;
+	background: #6f42c1;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 30px !important;
+	border-radius: 2.0rem;
+}
+@media (max-width: 1028px) {
+	#whatiscoronavirus .container-fluid{
+	padding: 0.0rem 3.0rem !important;
+    }
+    #whatiscoronavirus .col-lg-7 video{
+	width: 100%;
+	height: 100%;
+    }
+    #whatiscoronavirus .col-lg-5 h1{
+    padding-top: 4.0rem !important;
+	font-size: 2.2rem;
+    }
+    #whatiscoronavirus .col-lg-5 p{
+	font-size: 1.25rem;
+    }
+    #whatiscoronavirus .col-lg-5 .icon-para{
+    padding-top: 0.3rem !important;
+    font-size: 1.25rem;
+    }
+    #whatiscoronavirus .col-lg-5 a{
+	font-size: 15px;
+	padding: 15px 40px !important;
+    }
+}
+/*===============================
+what-is-coronavirus-end========*/
+
+/*========================================
+how-to-prevent-coronavirus==============*/
+#howtopreventcoronavirus{
+	background: rgba(111, 66, 193, 0.05);
+	margin-top: 5.50rem !important;
+	padding-top: 5.50rem !important;
+	padding-bottom: 2.6rem !important;
+	font-family: mulish;
+}
+#howtopreventcoronavirus .container-fluid{
+    padding: 0.0rem 15.0rem !important; 
+}
+#howtopreventcoronavirus .col-lg-3{
+	padding-bottom: 2.0rem !important;
+}
+#howtopreventcoronavirus .col-lg-3 .card{
+	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);	
+}
+#howtopreventcoronavirus .col-lg-3 .icon{
+	text-align: center;
+	background: rgba(111, 66, 193, 0.2);
+	padding: 4.0rem 0.0rem !important;
+}
+#howtopreventcoronavirus .col-lg-3 i{
+	color: #6f42c1;
+    font-size: 3.0rem;
+}
+#howtopreventcoronavirus .col-lg-3 h5{
+	color: #6f42c1;
+	font-size: 1.1rem;
+	font-weight: 800;
+	padding: 0.0rem 1.5rem !important;
+	padding-top: 1.5rem !important; 
+}
+#howtopreventcoronavirus .col-lg-3 p{
+	color: grey;
+	font-size: 0.9rem;
+	padding: 0.0rem 1.5rem !important;
+	padding-bottom: 1.5rem !important;
+}
+@media (max-width: 1028px) {
+	#howtopreventcoronavirus{
+		padding-bottom: 2.5rem !important;
+	}
+	#howtopreventcoronavirus .container-fluid{
+        padding: 0.0rem 3.0rem !important; 
+    }
+	#howtopreventcoronavirus .col-lg-3 h5{
+		font-size: 1.3rem;
+	}
+	#howtopreventcoronavirus .col-lg-3 p{
+		font-size: 1.1rem;
+	}
+}
+/*=====second=====*/
+#howtopreventcoronavirus .col-lg-6 h1{
+	color: #6f42c1;
+	font-size: 1.9rem;
+	font-weight: 900;
+}
+#howtopreventcoronavirus .col-lg-6 p{
+	color: grey;
+	font-size: 1.0rem;
+}
+#howtopreventcoronavirus .col-lg-6 i{
+	color: #6f42c1;
+	padding-right: 1.0rem;
+}
+#howtopreventcoronavirus .col-lg-6 a{
+	color: #fff;
+	font-size: 12px;
+	background: #6f42c1;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 30px !important;
+	border-radius: 2.0rem; 
+}
+@media (max-width: 1028px) {
+	#howtopreventcoronavirus .col-lg-6{
+        margin-bottom: 2.9rem;
+	}
+    #howtopreventcoronavirus .col-lg-6 h1{
+	font-size: 2.2rem;
+    }
+    #howtopreventcoronavirus .col-lg-6 p{
+	font-size: 1.25rem;
+    }
+    #howtopreventcoronavirus .col-lg-6 a{
+	font-size: 15px;
+    }
+}
+/*============================================
+how-to-prevent-coronavirus-end==============*/
+
+/*===================================
+how-to-protect-your-self===========*/
+#howtoprotectyourself{
+	padding: 0.0rem 15rem;
+	padding-top: 6.50rem !important;
+	font-family: mulish;
+}
+#howtoprotectyourself p{
+	text-align: center;
+	color: gray;
+	font-size: 1.0rem;
+}
+#howtoprotectyourself h1{
+	text-align: center;
+	color: #6f42c1;
+	text-transform: capitalize;
+	font-size: 1.9rem;
+	font-weight: 900;
+	line-height: 12px;
+}
+#howtoprotectyourself .p2{
+	color: gray;
+	font-size: 1.0rem;
+	text-align: center;
+	letter-spacing: 0.0px;
+	padding: 0.0rem 15.0rem;
+	padding-top: 1.7rem !important;
+}
+
+#howtoprotectyourself .col-lg-3{
+	padding-top: 5.0rem;
+}
+#howtoprotectyourself .container-fluid ul{
+	color: black;
+	font-size: 1.1rem;
+	font-weight: 700;	
+}
+#howtoprotectyourself .container-fluid li{
+	color: grey;
+	font-weight: 400;
+	font-size: 1.0rem;
+	padding-top: 1.0rem;
+	list-style-type: none;
+}
+#howtoprotectyourself .container-fluid i{
+	padding-right: 1.0rem;
+    color: #a8df65;
+}
+#howtoprotectyourself .second i{
+	color: #e84a5f;
+}
+#howtoprotectyourself .col-lg-6 img{
+     width: 107%;
+} 
+@media (max-width: 1028px) {
+	#howtoprotectyourself{
+	padding: 0.0rem 3.0rem;
+    }
+    #howtoprotectyourself p{
+	font-size: 1.25rem;
+    }
+    #howtoprotectyourself h1{
+	text-align: center;
+	color: #6f42c1;
+	text-transform: capitalize;
+	font-size: 2.2rem;
+	font-weight: 900;
+	line-height: 12px;
+    }
+    #howtoprotectyourself .p2{
+	font-size: 1.25rem;
+	padding: 0.0rem 3.0rem;
+    }
+    #howtoprotectyourself .container-fluid ul{
+	color: black;
+	font-size: 1.45rem;
+	font-weight: 700;	
+    }
+    #howtoprotectyourself .container-fluid li{
+	color: grey;
+	font-weight: 400;
+	font-size: 1.25rem;
+	padding-top: 1.0rem;
+	list-style-type: none;
+    }
+    #howtoprotectyourself .col-lg-6 img{
+     width: 94%;
+    }	
+}
+/*=======================================
+how-to-protect-your-self-end===========*/
+
+/*=============================
+symptoms-of-coronavirus======*/
+#symptomsofcoronavirus{
+	padding: 0.0rem 15rem;
+	background: rgba(111, 66, 193, 0.05);
+	margin-top: 5.50rem !important;
+	padding-top: 5.50rem !important;
+	padding-bottom: 5.50rem !important;
+	font-family: mulish;
+}
+#symptomsofcoronavirus h1{
+	text-align: center;
+	color: #6f42c1;
+	font-size: 1.9rem;
+	font-weight: 900;
+}
+#symptomsofcoronavirus .symptomsofcoronavirus-title-para{
+	color: gray;
+	font-size: 1.0rem;
+	text-align: center;
+	padding: 0.0rem 15.0rem !important;
+	padding-top: 1.2rem !important;
+}
+#symptomsofcoronavirus .container-fluid{
+    	padding-top: 1.0rem !important;
+}
+#symptomsofcoronavirus img{
+	width: 100%;
+}
+#symptomsofcoronavirus .col-lg-6{
+	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);	
+	padding-top: 2.0rem;
+	padding-bottom: 1.0rem;
+	padding-left: 2.0rem;
+	background: white;
+	margin-bottom: 1.5rem;
+}
+#symptomsofcoronavirus .text{
+	padding-left: 1.0rem;
+}
+#symptomsofcoronavirus h6{
+	color: #6f42c1;
+	font-size: 1.1rem;
+	font-weight: 700;
+}
+#symptomsofcoronavirus .symptoms-discription{
+	color: gray;
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+#symptomsofcoronavirus .helpline{
+	color: #6f42c1;
+	font-size: 1.1rem;
+	font-weight: 700;
+}
+#symptomsofcoronavirus a{
+	color: #fff;
+	font-size: 12px;
+	background: #6f42c1;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 30px !important;
+	border-radius: 2.0rem; 
+}
+@media (max-width: 1028px) {
+	#symptomsofcoronavirus{
+	padding: 0.0rem 3.0rem;
+    }
+    #symptomsofcoronavirus h1{
+	font-size: 2.2rem;
+    }
+    #symptomsofcoronavirus .symptomsofcoronavirus-title-para{
+	font-size: 1.25rem;
+	padding: 0.0rem 3.0rem !important;
+    }
+    #symptomsofcoronavirus .container-fluid{
+    	padding-top: 1.50rem !important;
+    }
+    #symptomsofcoronavirus img{
+	width: 110%;
+    }
+    #symptomsofcoronavirus .text{
+	padding-left: 1.0rem;
+    }
+    #symptomsofcoronavirus h6{
+	font-size: 1.6rem;
+	padding-top: 1.4rem;
+    }
+    #symptomsofcoronavirus .symptoms-discription{
+	font-size: 1.3rem;
+	padding-bottom: 0.5rem;
+    }
+    #symptomsofcoronavirus a{
+    	font-size: 15px;
+    }
+}
+/*==================================
+symptoms-of-coronavirus-end=======*/
+
+/*==========================
+news-and-articles=========*/
+#newsandarticles{
+	padding: 0.0rem 15.0rem !important;
+	padding-top: 5.50rem !important;
+	font-family: mulish !important;
+}
+#newsandarticles h1{
+	text-align: center;
+	color: #6f42c1;
+	font-size: 1.9rem;
+	font-weight: 900;
+	text-transform: capitalize; 
+}
+#newsandarticles p{
+	color: gray;
+	font-size: 1.0rem;
+	text-align: center;
+	padding: 0.0rem 15.0rem !important;
+	padding-top: 1.2rem !important;
+}
+#newsandarticles .container-fluid{
+	margin-top: 3.5rem !important;
+}
+#newsandarticles .col-lg-4 img{
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+}
+#newsandarticles .col-lg-4 span{
+	position: absolute;
+    bottom: 0;
+    left: 35%;
+    bottom: 50.0px;
+    background: #6f42c1;
+    padding: 5px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    color: #fff;
+    cursor: pointer;
+}
+#newsandarticles .col-lg-4 h4{
+    padding-top: 1.0rem;
+    font-size: 15px;
+    text-align: left;
+    color: gray;
+    cursor: pointer;
+}
+#newsandarticles .col-lg-4 a{
+	color: #fff;
+	background: #6f42c1;
+	letter-spacing: 0.6px;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px 9.855px;
+	border-radius: 2.0rem;
+}
+#newsandarticles .col-lg-4 h4:hover{
+	color: #492a84;
+	transition: 0.5s;
+}
+@media (max-width: 1028px) {
+	#newsandarticles{
+	padding: 0.0rem 3.0rem !important;
+	padding-top: 5.50rem !important;
+	font-family: mulish !important;
+    }
+    #newsandarticles p{
+	color: gray;
+	font-size: 1.25rem;
+	text-align: center;
+	padding: 0.0rem 3.0rem !important;
+	padding-top: 1.2rem !important;
+    }
+    #newsandarticles h1{
+	text-align: center;
+	color: #6f42c1;
+	font-size: 2.2rem;
+	font-weight: 900;
+	text-transform: capitalize; 
+    }
+    #newsandarticles .col-lg-4 span{
+    visibility: hidden;
+    }
+    #newsandarticles .col-lg-4 h4{
+    font-size: 2.2rem;
+    text-align: right;
+    }
+    #newsandarticles .col-lg-4 a{
+	font-size: 15px;
+	padding: 10px 30px !important;
+    }
+}
+/*==============================
+news-and-articles-end=========*/
+
+/*============
+links=======*/
+#links{
+	margin-top: 6.50rem;
+	font-family: mulish;
+	padding: 3.0rem 0.0rem;
+	background: rgba(111, 66, 193, 0.05);
+}
+#links .container-fluid{
+	padding: 0.0rem 15rem;
+}
+#links p{
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 28.0px;
+	word-spacing: 0.6px;
+	padding-top: 1.0rem;
+}
+#links h6{
+	color: black;
+	text-transform: capitalize;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+#links ul{
+	color: black;
+	text-transform: capitalize;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+#links li{
+	color: #6f42c1;
+	list-style-type: none;
+	cursor: pointer;
+	padding-top: 1.0rem;
+	font-weight: 700; 
+	font-size: 1.0rem;
+	transition: 0.5s;
+}
+#links li:hover{
+	color: black;
+	padding-left: 5.0px;
+}
+#links i{
+	color: #6f42c1;
+	padding-right: 1.50rem;
+	cursor: pointer;
+	transition: 0.5s;
+}
+#links i:hover{
+	color: black;
+}
+@media (max-width: 1028px) {
+	#links{
+	margin-top: 0.0rem;
+	background: rgba(111, 66, 193, 0.05);
+    }
+	#links .container-fluid{
+	padding: 0.0rem 3.0rem;
+    }
+    #links .col-lg-4{
+    display: none;
+    }
+    #links .col-lg-4 h6{
+    	font-size: 0.0rem !important; 
+    }
+    #links .col-lg-4 p{
+    	font-size: 0.0rem !important;
+    }
+    #links ul{
+	font-size: 1.9rem;
+    }
+    #links li{
+	font-size: 1.25rem;
+    }
+}
+/*================
+links-end=======*/
+
+/*=============
+footer=======*/
+#footer {
+    
+    padding: 7.5rem 0rem;
+    font-family: mulish;
+}
+.copyright {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.footer-covid{
+    color: #6f42c1;
+    font-size: 1.5rem;	
+    font-weight: 800;
+}
+.designedby{
+	color: #6f42c1;
+	font-weight: 800;
+	font-size: 1.2rem;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.designedby:hover{
+	color: black;
+}
+@media (max-width: 1028px) {
+    .copyright {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.0rem;
+    }
+    .footer-covid{
+    color: #6f42c1;
+    font-size: 2.0rem;	
+    font-weight: 800;
+    }
+    .designedby{
+	color: #6f42c1;
+	font-weight: 800;
+	font-size: 1.5rem;
+    }
+}
+/*=================
+footer-end=======*/
+
+/*===============
+preloader======*/
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff url(../img/loading.gif) no-repeat center;
+	z-index: 99999;
+}
+/*===================
+preloader-end======*/
